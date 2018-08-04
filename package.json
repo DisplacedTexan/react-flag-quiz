@@ -2,7 +2,7 @@
   "name": "flag-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashliecrooks.github.io/flag-quiz",
+  "homepage": "https://ashliecrooks.github.io/react-flag-quiz",
   "dependencies": {
     "node-fetch": "^2.2.0",
     "react": "^16.4.1",
