@@ -1,0 +1,104 @@
+.game {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0FFFF;
+}
+
+.view {
+    width: 80%;
+    height: 120px;
+    margin: 20px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px dashed #e0e0e0;
+}
+
+@media screen and (max-width: 600px) {
+    .view {
+        flex-direction: column;
+        padding: 5px;
+        height: auto;
+    }
+    
+    #flag {
+        width: 75%;
+        height: auto;
+    }
+}
+
+.countries {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    color: black;
+}
+
+#flag {
+    max-height: 400px;
+    width: auto;
+}
+
+.choice {
+    margin: 5px 0;
+    flex: 1 0 50%;
+}
+
+.answer {
+    margin: 0 5px;
+}
+
+button {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 3px solid #e0e0e0;
+    padding: 15px 15px;
+    font-family: Raleway;
+    font-size: 1.2em;
+}
+
+.new-game-btn {
+    background-color: #A0D5F2;
+}
+
+.submit-btn {
+    background-color: #08B553;
+    color: #f0f0f0;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: x-large;
+    }
+    
+    .view {
+        width: 95%;
+        flex-direction: column;
+        padding: 15px 0;
+        height: auto;
+    }
+    
+    .countries {
+        flex-direction: column;
+        padding-bottom: 5px;
+        font-size: larger;
+    }
+    
+    .answer {
+        padding: 15px 5px;
+    }
+    
+    #flag {
+        width: 75%;
+        height: auto;
+    }
+}

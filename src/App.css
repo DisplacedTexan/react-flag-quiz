@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  font-size: 3em;
+  height: 3em;
+  background-color: #1A9DE3;
+  color: #E8F0F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+  -webkit-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.57);
+  box-shadow: 0px 10px 34px -15px rgba(0,0,0,0.57);
+}
+
+/*.color-primary-0 { color: #1A9DE3 }
+.color-primary-1 { color: #E8F0F5 }
+.color-primary-2 { color: #60B3DF }*/
+
